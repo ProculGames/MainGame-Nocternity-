@@ -20,7 +20,7 @@ public class TerrainFoliage : MonoBehaviour {
         Terrain t = Terrain.activeTerrain;
         TerrainData td = t.terrainData;
 
-        TreePrototype[] treeprototypes = new TreePrototype[] { new TreePrototype() { prefab = (GameObject)Resources.Load("BigTree") }, new TreePrototype() { prefab = (GameObject)Resources.Load("Tree") } };
+		TreePrototype[] treeprototypes = new TreePrototype[] { new TreePrototype() { prefab = (GameObject)Resources.Load("BigTree") }, new TreePrototype() { prefab = (GameObject)Resources.Load("Tree") }, new TreePrototype() { prefab = (GameObject)Resources.Load("Bush1") } , new TreePrototype() { prefab = (GameObject)Resources.Load("Bush5LowPoly") }, new TreePrototype() { prefab = (GameObject)Resources.Load("ScotsPineTypeA") }};
 
         td.treePrototypes = treeprototypes;
 
