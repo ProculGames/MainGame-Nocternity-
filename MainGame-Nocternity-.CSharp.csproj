@@ -80,6 +80,8 @@
     <Compile Include="Assets\EasyRoads3D Free\scripts\SideObjectInit.cs" />
     <Compile Include="Assets\EasyRoads3D Free\scripts\SurfaceScript.cs" />
     <Compile Include="Assets\EasyRoads3D Free\scripts\sideObjectScript.cs" />
+    <Compile Include="Assets\Mixamo\Mecanim Demo\DemoControlScript.cs" />
+    <Compile Include="Assets\Mixamo\Mecanim Demo\DemoScript.cs" />
     <Compile Include="Assets\Scripts\BrakeLight.cs" />
     <Compile Include="Assets\Scripts\CarAIControl.cs" />
     <Compile Include="Assets\Scripts\CarAudio.cs" />
@@ -99,6 +101,7 @@
     <Compile Include="Assets\Scripts\Mudguard.cs" />
     <Compile Include="Assets\Scripts\NetworkGUI.cs" />
     <Compile Include="Assets\Scripts\PlayerDrive.cs" />
+    <Compile Include="Assets\Scripts\PlayerMotor.cs" />
     <Compile Include="Assets\Scripts\PlayerSetup.cs" />
     <Compile Include="Assets\Scripts\SkidTrail.cs" />
     <Compile Include="Assets\Scripts\Suspension.cs" />

@@ -55,8 +55,10 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //Animation Controls
-        Anim.SetFloat("Forward", PlayerRigid.velocity.magnitude);
+        Anim.SetFloat("Walk", PlayerRigid.velocity.magnitude);
         Anim.SetFloat("Turn", Input.GetAxis("Mouse X") / Time.deltaTime);
+        Anim.SetFloat("Strafe", Input.GetAxis("Horizontal"));
+        Anim.SetFloat("Back", PlayerRigid.velocity.magnitude -1);
         Anim.SetBool("OnGround", OnGround);
 		//Run movement in the Update function
 		Movement ();
@@ -157,7 +159,7 @@ public class PlayerMovement : MonoBehaviour {
         if (Input.GetKeyDown(JumpKey) && OnGround)
         {
             PlayerRigid.velocity = new Vector3(PlayerRigid.velocity.x, JumpHeight, PlayerRigid.velocity.z);
-            OnGround = false;
+           OnGround = false;
         }
 	}
 
@@ -165,7 +167,7 @@ public class PlayerMovement : MonoBehaviour {
     {
         if (Col.gameObject.tag == "Ground")
         {
-            OnGround = true;
+           OnGround = true;
         }
     }
 }
