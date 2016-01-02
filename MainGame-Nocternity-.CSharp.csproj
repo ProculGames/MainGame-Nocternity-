@@ -74,20 +74,18 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BrakeLight.cs" />
-    <Compile Include="Assets\CarAIControl.cs" />
-    <Compile Include="Assets\CarAudio.cs" />
-    <Compile Include="Assets\CarController.cs" />
-    <Compile Include="Assets\CarSelfRighting.cs" />
-    <Compile Include="Assets\CarUserControl.cs" />
     <Compile Include="Assets\EasyRoads3D Free\scripts\EasyRoads3DTerrainID.cs" />
     <Compile Include="Assets\EasyRoads3D Free\scripts\MarkerScript.cs" />
     <Compile Include="Assets\EasyRoads3D Free\scripts\RoadObjectScript.cs" />
     <Compile Include="Assets\EasyRoads3D Free\scripts\SideObjectInit.cs" />
     <Compile Include="Assets\EasyRoads3D Free\scripts\SurfaceScript.cs" />
     <Compile Include="Assets\EasyRoads3D Free\scripts\sideObjectScript.cs" />
-    <Compile Include="Assets\Mudguard.cs" />
-    <Compile Include="Assets\PlayerDrive.cs" />
+    <Compile Include="Assets\Scripts\BrakeLight.cs" />
+    <Compile Include="Assets\Scripts\CarAIControl.cs" />
+    <Compile Include="Assets\Scripts\CarAudio.cs" />
+    <Compile Include="Assets\Scripts\CarController.cs" />
+    <Compile Include="Assets\Scripts\CarSelfRighting.cs" />
+    <Compile Include="Assets\Scripts\CarUserControl.cs" />
     <Compile Include="Assets\Scripts\Jeffs Scripts\Animation\PlayerAnim.cs" />
     <Compile Include="Assets\Scripts\Jeffs Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Jeffs Scripts\MouseLook.cs" />
@@ -98,15 +96,17 @@
     <Compile Include="Assets\Scripts\Jeffs Scripts\ThirdPersonCam.cs" />
     <Compile Include="Assets\Scripts\Jeffs Scripts\WeatherSystem\CloudMovement.cs" />
     <Compile Include="Assets\Scripts\Jeffs Scripts\WeatherSystem\WeatherSystem.cs" />
-    <Compile Include="Assets\SkidTrail.cs" />
-    <Compile Include="Assets\Suspension.cs" />
-    <Compile Include="Assets\WheelEffects.cs" />
+    <Compile Include="Assets\Scripts\Mudguard.cs" />
+    <Compile Include="Assets\Scripts\PlayerDrive.cs" />
+    <Compile Include="Assets\Scripts\SkidTrail.cs" />
+    <Compile Include="Assets\Scripts\Suspension.cs" />
+    <Compile Include="Assets\Scripts\WheelEffects.cs" />
+    <Compile Include="Assets\Scripts\hidecursor.cs" />
     <Compile Include="Assets\WorldBuilder\Scripts\Heightmapbuilder.cs" />
     <Compile Include="Assets\WorldBuilder\Scripts\Helpers\Threading.cs" />
     <Compile Include="Assets\WorldBuilder\Scripts\TerrainFoliage.cs" />
     <Compile Include="Assets\WorldBuilder\Scripts\TerrainGeneration.cs" />
     <Compile Include="Assets\WorldBuilder\Scripts\TerrainTexturing.cs" />
-    <Compile Include="Assets\hidecursor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DayNightCycle\TOD\shader\SkyboxBlend.shader" />
