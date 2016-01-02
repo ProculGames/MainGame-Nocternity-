@@ -98,6 +98,7 @@
     <Compile Include="Assets\Scripts\Jeffs Scripts\WeatherSystem\WeatherSystem.cs" />
     <Compile Include="Assets\Scripts\Mudguard.cs" />
     <Compile Include="Assets\Scripts\PlayerDrive.cs" />
+    <Compile Include="Assets\Scripts\PlayerSetup.cs" />
     <Compile Include="Assets\Scripts\SkidTrail.cs" />
     <Compile Include="Assets\Scripts\Suspension.cs" />
     <Compile Include="Assets\Scripts\WheelEffects.cs" />
