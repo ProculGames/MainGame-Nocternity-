@@ -54,12 +54,11 @@ public class PlayerMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //Animation Controls
-        Anim.SetFloat("Walk", PlayerRigid.velocity.magnitude);
+        //Animation controls
+        Anim.SetFloat("Blend", Input.GetAxis("Vertical"));
         Anim.SetFloat("Turn", Input.GetAxis("Mouse X") / Time.deltaTime);
         Anim.SetFloat("Strafe", Input.GetAxis("Horizontal"));
-        Anim.SetFloat("Back", PlayerRigid.velocity.magnitude -1);
-        Anim.SetBool("OnGround", OnGround);
+        Anim.SetBool("Ground", OnGround);
 		//Run movement in the Update function
 		Movement ();
 		}
